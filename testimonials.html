@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzana Cafe - Testimonials</title>
+    <!-- linking Font Awesome for icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- Linking swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation Bar -->
+    <header>
+        <nav class="navbar section-content" >
+            <a href="home.html" class="nav-logo">
+                <h2 class="logo-text">☕ Suzana Cafe</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="section-content">
+                <div class="slider-container swiper">
+                    <div class="slider-wrapper">
+                        <ul class="testimonials-list swiper-wrapper">
+                            <li class="testimonial swiper-slide">
+                                <img src="images/wakio.png" alt="wakio" class="user-image">
+                                <h3 class="name">Wakio Radiance</h3>
+                                <i class="feedback">Suzana Café has become my go-to spot every morning. The coffee is always smooth and full of flavor, and the staff greet you like family. It's the perfect start to my day! </i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/alfa.png" alt="" class="user-image">
+                                <h3 class="name">Alfa Mmosi</h3>
+                                <i class="feedback">I love working from here — the cozy atmosphere and reliable Wi-Fi make it the perfect place to get things done. Plus, their cappuccinos are the best in town!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/ammi.png" alt="" class="user-image">
+                                <h3 class="name">Ammi Jeff</h3>
+                                <i class="feedback">My family and I love coming here on weekends. The kids enjoy the pastries, and my wife and I get to relax over a perfectly brewed latte. It's our little weekend ritual.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/tevin.png" alt="" class="user-image">
+                                <h3 class="name">Tevin Agala</h3>
+                                <i class="feedback">I was just passing by and decided to stop in — best decision ever! The coffee was amazing, the staff were so friendly, and I left with a smile. Definitely coming back!</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/susan.png" alt="" class="user-image">
+                                <h3 class="name">Susan Mwallo</h3>
+                                <i class="feedback">As someone who loves good coffee, I can honestly say Suzana Café knows how to do it right. You can taste the quality in every sip, and their baristas are true artists.</i>
+                            </li>
+                            <li class="testimonial swiper-slide">
+                                <img src="images/kate.png" alt="" class="user-image">
+                                <h3 class="name">Kate Kelly</h3>
+                                <i class="feedback">This café is my safe haven! It's quiet enough to study, but still lively and welcoming. Plus, their iced coffee keeps me going during exam season</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-slide-button swiper-pagination"></div>
+                        <div class="swiper-slide-button swiper-button-prev"></div>
+                        <div class="swiper-slide-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="section-content">
+            <p class="copyright-text">@ 2024 Suzana Cafe </p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="#" class="policy-link">Privacy policy</a>
+                <span class="separator">.</span>
+                <a href="#" class="policy-link">Refund policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <!--Swiper slide script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <!--my custom script-->
+    <script src="script.js"></script>
+</body>
+</html>

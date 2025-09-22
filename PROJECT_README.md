@@ -6,7 +6,8 @@ A modern, responsive coffee shop website built with HTML5, CSS3, and JavaScript.
 
 Suzana Cafe is a beautifully designed coffee shop website that provides customers with information about the cafe, its menu, customer testimonials, photo gallery, and contact details. The website features a clean, modern design with a warm color scheme that reflects the cozy atmosphere of a coffee shop.
 
-## Link https://suzana-cafe.netlify.app/
+## Link 
+ https://suzana-cafe.netlify.app/
 
 ## 🎯 Features
 
